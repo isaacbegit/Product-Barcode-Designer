@@ -91,6 +91,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="bin\Debug\Barcode_ReportDesgin.exe.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -104,6 +105,19 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\AdvancedImageBox.dll" />
+    <Content Include="bin\Debug\BarcodeLib.dll" />
+    <Content Include="bin\Debug\BarcodeLib.pdb" />
+    <Content Include="bin\Debug\Barcode_ReportDesgin.exe" />
+    <Content Include="bin\Debug\Barcode_ReportDesgin.pdb" />
+    <Content Include="bin\Debug\ComponentFactory.Krypton.Design.dll" />
+    <Content Include="bin\Debug\ComponentFactory.Krypton.Docking.dll" />
+    <Content Include="bin\Debug\ComponentFactory.Krypton.Navigator.dll" />
+    <Content Include="bin\Debug\ComponentFactory.Krypton.Ribbon.dll" />
+    <Content Include="bin\Debug\ComponentFactory.Krypton.Toolkit.dll" />
+    <Content Include="bin\Debug\ComponentFactory.Krypton.Workspace.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
